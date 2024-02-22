@@ -1,9 +1,8 @@
-#!/bin/php
 <?php
 
-$max = 60;
+$max_value = 60;
 $i = 0;
-while($i < $max) {
+while($i < $max_value) {
     echo $i . PHP_EOL;
     $cmd = "./v6.php";
     $res = passthru($cmd, $result_code);
